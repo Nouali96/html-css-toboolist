@@ -1,0 +1,27 @@
+body{
+    background-color: #F6F8F9;
+}
+
+/* Inizio sezione titolo */
+
+#header-logo {
+    background-color: #FFF;
+    height: 90px;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline;
+    vertical-align: middle;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo{
+    padding: 20px 0px;
+    vertical-align: middle;
+}
+
+/* Fine sezione titolo */
+
+
