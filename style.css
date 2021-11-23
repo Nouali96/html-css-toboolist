@@ -1,5 +1,7 @@
 body{
     background-color: #F6F8F9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
 }
 
 /* Inizio sezione titolo */
@@ -14,7 +16,6 @@ h1{
     display: inline;
     vertical-align: middle;
     font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #logo{
@@ -31,7 +32,7 @@ h1{
 #button-add{
     background-color: #FFF;
     height: 50px;
-    margin: 50px 10% 10%;
+    margin: 50px 10% 0px 10% ;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -60,4 +61,82 @@ h1{
 
     /* Fine sezione button */
 
+    /* Inizio sezione container */
+
+#container{
+    background-color: #FFF;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    padding: 20px 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2::before{
+    content: '\25BE';
+}
+
+.item{
+    border-radius: 20PX;
+    font-size: 0.5em;
+    padding: 5px;
+    color: white;
+}
+
+.editorial{
+    background-color: #45ABEA;
     
+}
+
+.q1{
+    background-color: #9C72E4;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+}
+
+.mobile{
+    background-color: #F29E33;
+}
+
+.website{
+    background-color: #D863A1;
+}
+
+.sales{
+    background-color: #B0C926;
+}
+
+.done::before{
+    border-radius: 100%;
+    border: 1px solid green;
+    content: "\2713";
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    color: green;
+    font-size: 12px;
+    text-align: center;
+}
+
+.not-done::before{
+    border-radius: 100%;
+    border: 1px solid red;
+    content: "\00D7";
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+
+#container>div>p{
+    font-size: 1.2em;
+}
+
+    /* Fine sezione container */
+    
+/* Fine sezione corpo */
