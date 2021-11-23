@@ -24,4 +24,40 @@ h1{
 
 /* Fine sezione titolo */
 
+/* Inizio sezione corpo */
 
+    /* Inizio sezione button */
+
+#button-add{
+    background-color: #FFF;
+    height: 50px;
+    margin: 50px 10% 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#button-task{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #45ABEA;
+    border-radius: 5px;
+    border-color: #45ABEA;
+    
+}
+
+#button-task span{
+    color: #FFF;
+}
+
+#button-section{
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+#button-section span{
+    color: #D3D8DC;
+}
+
+    /* Fine sezione button */
+
+    
