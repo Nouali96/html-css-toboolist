@@ -9,7 +9,6 @@ body{
 #header-logo {
     background-color: #FFF;
     height: 90px;
-    vertical-align: middle;
 }
 
 h1{
@@ -37,31 +36,44 @@ h1{
     border-top-right-radius: 10px;
 }
 
-#button-task{
+.button-task{
+    margin-top: 10px;
     margin-left: 50px;
-    margin-top: 20px;
     background-color: #45ABEA;
     border-radius: 5px;
     border-color: #45ABEA;
-    
 }
 
-#button-task span{
+.button-task span{
     color: #FFF;
 }
 
-#button-section{
+.button-section{
     background-color: #FFF;
     border-radius: 5px;
 }
 
-#button-section span{
+.button-section span{
     color: #D3D8DC;
+}
+
+.button{
+    padding: 5px;
 }
 
     /* Fine sezione button */
 
     /* Inizio sezione container */
+
+ul{
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li{
+    margin: 15px;
+}
 
 #container{
     background-color: #FFF;
@@ -135,6 +147,11 @@ h2::before{
 
 #container>div>p{
     font-size: 1.2em;
+}
+
+#container>div{
+    margin-bottom: 50px;
+    display: block;
 }
 
     /* Fine sezione container */
